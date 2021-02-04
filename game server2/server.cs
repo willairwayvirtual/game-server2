@@ -20,7 +20,7 @@ namespace game_server2
             Console.WriteLine("Starting server...");
 
              tcpListener = new TcpListener(IPAddress.Any, port);
-            Console.WriteLine($"Server started on port {Port}.");
+            Console.WriteLine($"Server started on port {Port}.);
 
             private  static void TCPConnectCallback(IAsyncResult _result)
             {
