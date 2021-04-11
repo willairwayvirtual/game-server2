@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30907.101
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "game server2", "game server2\game server2.csproj", "{2BF3DDE9-1DF6-4FD6-A95C-8299680615E3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "game server2", "game server2\game server2.csproj", "{2BF3DDE9-1DF6-4FD6-A95C-8299680615E3}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "game server21", "game server21\game server21.vdproj", "{DD0716FF-89CF-4FA7-81F8-7CE7E60B5731}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,8 @@ Global
 		{2BF3DDE9-1DF6-4FD6-A95C-8299680615E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2BF3DDE9-1DF6-4FD6-A95C-8299680615E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2BF3DDE9-1DF6-4FD6-A95C-8299680615E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD0716FF-89CF-4FA7-81F8-7CE7E60B5731}.Debug|Any CPU.ActiveCfg = Debug
+		{DD0716FF-89CF-4FA7-81F8-7CE7E60B5731}.Release|Any CPU.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
