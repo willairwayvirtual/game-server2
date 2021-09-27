@@ -35,7 +35,7 @@ namespace Game_Server2
                     if (_nextLoop > DateTime.Now)
                     {
                         // If the execution time for the next tick is in the future, aka the server is NOT running behind
-                        Thread.Sleep(_nextLoop - DateTime.Now); // Let the thread sleep until it's needed again.
+                        Thread.Sleep(_nextLoop - DateTime.Now); // Let the thread sleep until it's needed again.ET
                     }
                 }
             }
